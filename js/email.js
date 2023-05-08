@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", function() {
           to_name: "Jithu Francis",
           from_name: name,
           from_email: email,
-          subject: subject,
+          Subject: subject,
           message: message
         }, 'mAqxVfKAXNu5aqg5c')
           .then(function(response) {
