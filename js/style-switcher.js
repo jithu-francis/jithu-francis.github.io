@@ -3,6 +3,13 @@ styleSwitcherToggler.addEventListener("click", () =>{
     document.querySelector(".style-switcher").classList.toggle("open");
 })
 
+window.addEventListener("click", (event) => {
+    if (!event.target.closest(".style-switcher")) {
+      document.querySelector(".style-switcher").classList.remove("open");
+    }
+});
+  
+
 window.addEventListener("scroll", () =>{
     if(document.querySelector(".style-switcher").classList.contains("open"))
     {
