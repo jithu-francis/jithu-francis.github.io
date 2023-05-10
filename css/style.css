@@ -66,6 +66,8 @@ footer {
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .section.back-section{
@@ -529,6 +531,8 @@ h3.my-profession{
     margin-bottom: 30px;
 }
 
+
+
 .about .about-content h3.title{
     font-size: 24px;
     margin-bottom: 30px;
@@ -816,6 +820,8 @@ h3.my-profession{
     .aside .nav-toggler.open{
         left: 300px;
     }
+
+
     .section{
         left: 0;
     }
